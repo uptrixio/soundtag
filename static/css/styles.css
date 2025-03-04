@@ -1,0 +1,81 @@
+@font-face {
+    src: url("../font/TT-Rounds-Neue-Trial-ExtraBold.ttf");
+    font-family: "TT-Rounds-Neue";
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    font-family: "TT-Rounds-Neue", sans-serif;
+    font-size: 150%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    padding: 10px;
+    text-align: center;
+}
+
+#image-button-sound {
+    width: 70%;
+    border-radius: 10%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+button {
+    width: 70%;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+    background-color: #ffffff;
+    font-family: "TT-Rounds-Neue", sans-serif;
+    color: #000;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #e0e0e0;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+}
+
+@media (min-width: 1920px) {
+    #image-button-sound {
+        width: 20%;
+    }
+
+    button {
+        width: 20%;
+        height: 5%;
+    }
+
+    .icon {
+        width: 24px;
+        height: 24px;
+    }
+}
